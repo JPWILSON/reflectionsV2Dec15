@@ -1,0 +1,47 @@
+1.How did viewing a diff between two versions of a file help you see the bug that 
+was introduced?
+ - Does it automatically so that I don't have to. 
+
+
+2.How could having easy access to the entire history of a file make
+you a more efficient programmer in the long term?
+	- Will allow me to save time by not lookng for bugs the whole time, 
+	  or to pick up where I left off when I went on a tangent, but 
+	  subsequently would prefer to revert. 
+
+
+
+3.What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+	-Pros: 1 commit per logical change, as and when you want.
+	-Cons: You may forget to commit, and then never have any commits - no way to retrace
+	 your steps except for from scratch.  
+
+
+
+4.Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+	-Lots of programs require inter-related files (like HTML and CSS) where the changes in 
+	 both files are required for modifications to an application. 
+
+
+
+5.How can you use the commands git log and git diff to view the history of files?
+	-Just type them and then all the info is displayed...
+
+
+
+6.How might using version control make you more confident to make changes that
+could break something?
+	-Can experiment, explore and make big changes, without any risk of 
+	 breaking the code. So much less stress
+
+
+
+7.Now that you have your workspace set up, what do you want to try using Git for?
+	-I want to use it for every project that I embark on from now on, starting with 
+	 Project1 of the Full Stack Nanodegree, even though it was already submitted and marked - I will 
+	 commit the marked project and then go on, incrementally improving it as I learn more and more stuff,
+	 hopefully making a proper database wbesite for movies and series that I have watched myself - this would 
+	 actually be very very exciting!
