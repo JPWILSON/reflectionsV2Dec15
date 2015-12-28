@@ -9,7 +9,11 @@
 
 2.How is the staging area different from the working directory and the repository? 
 What value do you think it adds?
-
+	The working directory is your hard drive, with all of your files. The staging area is 
+	where you select which files should have commits done together (ie, where a logical change
+	may span more than one file).
+	This is valuable so that a working directory (hard drive) with many files does not have them 
+	all commited when a logical change was made in only, say, a single file. 
 	
 
 
