@@ -1,0 +1,127 @@
+1.What happens when you initialise a repository? Why do you need to do it?
+	You create a .git file. This lets git know that this is now a git repository. The .git file 
+	will store metadata about the repository. If you don't do it, you will not be able to 
+	commit changes. It also lets Git know when to track files separately and when to 
+	track them together. 
+	
+
+
+
+2.How is the staging area different from the working directory and the repository? 
+What value do you think it adds?
+
+	
+
+
+
+3.How can you use the staging area to make sure you have one logical change per commit? 
+
+	
+
+
+
+4.What are some situations when branches would be helpful in keeping your history organised? How 
+would branches help? 
+
+	
+
+
+
+5.How do the diagrams help you visualise the branch structure? 
+
+	
+
+
+
+6.What is the result of merging two branches together? Why do we represent it in the diagram the way we do? 
+
+	
+
+
+7.What are the pros and cons of GIT's automatic merging vs. always doing merges manually? 
+
+	
+
+
+
+
+---------------------------------------------------------
+
+
+
+Reflections when I did the course in July 2015:
+
+What happens when you initialise a repository? Why do you need to do it?
+
+	This is the process of opening a git file, from where you can use the 
+	"commit" command in order to commit the file(s) that you have been working
+	on. You can now also make use of the "checkout" commmand, to revert to, 
+	or simply inspect an older commit. (Provided you've made one commit) 
+
+	A hidden git file is created which will start to store metadata about the 
+	history of the repository, since its creation. You need to do this in order 
+	to be able to commit changes to your code. If you do not do this, there would 
+	not be a way to track the changes to the various files. 
+
+	It also lets GIT know which files to track separately and which to track together. 
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it adds?
+
+	The staging area is a temporary section working with various documents, ie the specific
+	ones that you would like to make a commit for. The working directory, and the repository,
+	once they have been made, are both permanent. 
+	It is valuable in that it allows for the upload of whichever files you select, otherwise
+	 you would have to commit all files, which would not be congruent with the 
+	 philosophy of commiting at our own logical points. That is, some of the files may not be
+	 being worked on, and so shouldn't have a commit at that point.
+
+How can you use the staging area to make sure you have one logical change per commit? 
+
+	Once you have placed file(s) in the staging area, you are able to compare them to either, 
+	what is in the working directory, to see how you have changed the files, and then, if happy,
+	to the latest commit in the repository. This way you can be sure that you are only 
+	selecting the files associated with the logical commit to be made. You can also then have a 
+	final review of the changes that are about to be committed.
+
+What are some situations when branches would be helpful in keeping your history organised? How 
+would branches help? 
+
+	Branches would help when there are multiple purposes for your code, and so you would require 
+	multiple versions. That is, a single branch is excellent if the work only has one path, from 
+	start to completion. More explicitly, when the current version is correct, but not suitable for 
+	all applications, so another version is needed. That is, the newer iterations are not improvements,
+	but rather are just different. These are the cases when branches become very helpful in keeping 
+	your history organised. Some examples of this include: When doing a new language for the code, or 
+	when programming for a different operating system, or when the end user has different needs. Basically, 
+	this is when context changes - for collaboration, etc 
+
+How do the diagrams help you visualise the branch structure? 
+
+	The diagrams show you how simple the setup is, and make it more meaningful so that you are no longer 
+	rote learning, but rather just being taught a new concept. It makes one comfortable with the 
+	idea of commits, as a path along which you travel from concept, to finished code :)
+
+	More specifically, it allows me to see which changes are related to which branch, and what the 
+	parent of the commit is. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do? 
+
+	When two branches are merged, all of the commits from each of the branches are included, using the 
+	methodology of seeing what was removed and what was added. All the commits are put together, with some 
+	being consecutive to commits that are not their parents. The reason for this is that they are ordered
+	in accordance with their time stanmps. So, in order to see the differences introduced since a commit's
+	parent, the command: git show commit_ID  is used. The one branch is then deleted and the main branch 
+	has the smaller branch merged into it. It is represented in this way because it is, once again, logical 
+	and easy to follow. 
+
+What are the pros and cons of GIT's automatic merging vs. always doing merges manually? 
+
+	The pros are that you save a lot of time, and that the system pauses when it doesn't actually know how 
+	to merge two branches (that is, when there is a problem with knowing what is the right version of the code)
+	
+	The cons are that GIT doesn't understand the code, and so it could merge code that deleted a function, with 
+	code that calls to the function, and this would cause buggy code without GIT raising a conflict. So, it is 
+	important to always be able to understand and go through the code, even though, for the most part it saves 
+	you lots and lots of time. 
+
