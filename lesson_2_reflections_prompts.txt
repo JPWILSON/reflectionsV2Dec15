@@ -38,8 +38,10 @@ would branches help?
 	
 
 
-
 5.How do the diagrams help you visualise the branch structure? 
+	
+	It allows one to see which commits are made on what branch, and who is the parent of what commit. 
+	Increases the understanding of the way in which Git tracks changes made!
 
 	
 
