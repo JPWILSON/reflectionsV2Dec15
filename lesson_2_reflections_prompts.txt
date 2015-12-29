@@ -1,4 +1,5 @@
 1.What happens when you initialise a repository? Why do you need to do it?
+	
 	You create a .git file. This lets git know that this is now a git repository. The .git file 
 	will store metadata about the repository. If you don't do it, you will not be able to 
 	commit changes. It also lets Git know when to track files separately and when to 
@@ -9,6 +10,7 @@
 
 2.How is the staging area different from the working directory and the repository? 
 What value do you think it adds?
+	
 	The working directory is your hard drive, with all of your files. The staging area is 
 	where you select which files should have commits done together (ie, where a logical change
 	may span more than one file).
@@ -20,7 +22,9 @@ What value do you think it adds?
 
 3.How can you use the staging area to make sure you have one logical change per commit? 
 
-	
+	You can add several files to the staging area, and omit those that files that had nothing 
+	to do with the logical change.... This also allows one to review and edit/ remove items from the staging 
+	area before making the commit. 
 
 
 
