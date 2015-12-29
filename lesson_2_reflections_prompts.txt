@@ -49,11 +49,17 @@ would branches help?
 
 6.What is the result of merging two branches together? Why do we represent it in the diagram the way we do? 
 
-	
+	The result is that all the commits are ordered according to their timestap, only the branch name of the
+	branch being merged is deleted. Now, when using git diff to compare 2 consecutive commits, there may be 
+	more changes that are seen than were made. This is because the commits are ordered according to timestamp
+	and the difference that you may want to see between a commit and its parent is done by typing: 
+	git show commit_id
 
 
 7.What are the pros and cons of GIT's automatic merging vs. always doing merges manually? 
-
+	
+	The automatic merge is great, and the manual is also great, as GIT knows when not to 
+	try to assume what is going on, and allows you to go in and check before merging 2 branches. 
 	
 
 
@@ -124,7 +130,7 @@ What is the result of merging two branches together? Why do we represent it in t
 	When two branches are merged, all of the commits from each of the branches are included, using the 
 	methodology of seeing what was removed and what was added. All the commits are put together, with some 
 	being consecutive to commits that are not their parents. The reason for this is that they are ordered
-	in accordance with their time stanmps. So, in order to see the differences introduced since a commit's
+	in accordance with their time stamps. So, in order to see the differences introduced since a commit's
 	parent, the command: git show commit_ID  is used. The one branch is then deleted and the main branch 
 	has the smaller branch merged into it. It is represented in this way because it is, once again, logical 
 	and easy to follow. 
