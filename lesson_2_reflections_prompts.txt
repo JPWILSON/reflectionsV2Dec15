@@ -24,12 +24,16 @@ What value do you think it adds?
 
 	You can add several files to the staging area, and omit those that files that had nothing 
 	to do with the logical change.... This also allows one to review and edit/ remove items from the staging 
-	area before making the commit. 
+	area before making the commit. Add to thi
 
 
 
 4.What are some situations when branches would be helpful in keeping your history organised? How 
 would branches help? 
+
+	If one wanted to experiment with a certain method of doing things, or if a bug was picked up earlier
+	and a solution needed to be experimented with. Also, if another language is to employed, it would best 
+	be done on a new branch, separate forom the master branch. 
 
 	
 
