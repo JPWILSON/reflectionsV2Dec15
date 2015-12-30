@@ -1,0 +1,146 @@
+1.How did viewing a diff between two versions of a file help you see the bug that 
+was introduced?
+ - Does it automatically so that I don't have to. 
+
+
+2.How could having easy access to the entire history of a file make
+you a more efficient programmer in the long term?
+	- Will allow me to save time by not lookng for bugs the whole time, 
+	  or to pick up where I left off when I went on a tangent, but 
+	  subsequently would prefer to revert. 
+
+
+
+3.What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+	-Pros: 1 commit per logical change, as and when you want.
+	-Cons: You may forget to commit, and then never have any commits - no way to retrace
+	 your steps except for from scratch.  
+
+
+
+4.Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+	-Lots of programs require inter-related files (like HTML and CSS) where the changes in 
+	 both files are required for modifications to an application. 
+
+
+
+5.How can you use the commands git log and git diff to view the history of files?
+	-Just type them and then all the info is displayed...
+
+
+
+6.How might using version control make you more confident to make changes that
+could break something?
+	-Can experiment, explore and make big changes, without any risk of 
+	 breaking the code. So much less stress
+
+
+
+7.Now that you have your workspace set up, what do you want to try using Git for?
+	-I want to use it for every project that I embark on from now on, starting with 
+	 Project1 of the Full Stack Nanodegree, even though it was already submitted and marked - I will 
+	 commit the marked project and then go on, incrementally improving it as I learn more and more stuff,
+	 hopefully making a proper database wbesite for movies and series that I have watched myself - this would 
+	 actually be very very exciting!
+
+
+
+
+---------------------------------------------------------
+
+
+
+Reflections when I did the course in July 2015:
+How did viewing a diff between two versions 
+of a file help you see the bug that was introduced? 
+
+	It helped in that the diff did all of the work, so 
+	that I didn't have to waste time going through all of the 
+	information that was correct - that is, I did not have to 
+	spend time looking for 'a needle in a haystack'.
+
+How could having easy access to the entire history of a file make you a 
+more efficient programmer in the long term? 
+
+    Sometimes you may not be sure why you did something, and being able to see 
+    how the code read before you did this 'thing' will help you remember more 
+    about how and why you did it. Otherwise you might simply remove the thing, work for a few days 
+    and then come back to square one, needing to do that 'thing' anyway.
+
+    Reviewing the earlier work that you have done on a file will help you to
+    review the mistakes, or progress and insights that you had made earlier 
+    but possibly forgotten. 
+
+    It is also useful for possibly finding patterns in your code, or way of coding, 
+    or even in your logic itself.
+
+    Overall, it just makes your programming that much faster, and therefore more 
+    more efficient.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The cons would have to do with habitualisation - if you have not remembered to 
+    commit because you are too busy coding, or the logical section you are working 
+    on is very large, then you will not commit often enough, and when attempting to 
+    review, or viewing a diff, it will be difficult to follow what is going on and the 
+    efficiency of your coding may suffer. 
+    Additionally, external problems like loadshedding, or having to leave (being distracted)
+    by some other issue, might occur. In these situations, the automatic commiting of google
+    docs becomes useful.
+
+    The pros however far outweight the cons. Only you know what the best point in your coding to commit is, 
+    and this may also change depending on the type of project you are working on, or as your
+    proficiency increases or decreases. 
+
+    The automatic commiter does not know when is the right time for you to commit. Only you do. 
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Interdependency!!!  
+    When programming, there are often times when the files being edited are inter-
+    related, and it would not make too much sense when reviewing, if changes were done 
+    in separate files but you could not track the changes at the same points, or, 
+    you had to go and individually commit each file. 
+    In the saving of documents, the docs are not usually related - that is, you only 
+    work on one file at a time, and the changes being commited in one file would not 
+    directly affect any other file. It is therefore for these situations that treating 
+    each file separately, as is done in google docs, is the most suitable approach for 
+    version control. This is not always practical for programming though. Hence Git. 
+
+How can you use the commands git log and git diff to view the history of files? 
+
+    Using Git log shows all of the different commits that have been made. Once this has been done,
+    the git diff command is used to show the actual changes between two specific commits, namely a specific 
+    commit and its parent (the diff that was committed before it).
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    With version control, we can see that simply using the checkout command in git allows 
+    us to revert to a previous version. Therefore, we now know that there is no permanent damage
+    done if we commit certain changes, even when there is possibility that they could break something. 
+    We can simply revert back to an earlier commit, and work from there. Therefore, version control 
+    makes me more confident to make the changes that may be necessary, even if they have 
+    the possibility of breaking the programme. 
+    Makes you more of a RISKTAKER :):) Exploration! no worry about little baby steps :) 
+
+Now that you have your workspace set up, what do you want to try using Git for? 
+
+    I want to try using it for all of the coding that I am going to be doing from now on, 
+    from my web development, Javascript additions to the website that I have just made for my 
+    resume, and for the service offering for the Bespoke Designs system, and then, starting from this 
+    week, I want to start using it for the backend stuff, as I start the course: Introduction to 
+    relational databases. I should also use it for my Resume, in the same way that Caroline Buckey suggested.
+
+
+    Lastly, in review, I need to make sure that I understand perfectly how to set up my Git workspace for 
+    myself, and read all of the suggested articles. Only then should I move on. 
+    Hopefully that can be done by the end of today :) Done - Sunday 15 March 2015
+
